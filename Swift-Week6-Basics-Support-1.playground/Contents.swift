@@ -18,19 +18,24 @@ for name in nameStudent{
 //- Print the value of the function when the price = 100 & discount = 0.5
 //- Print the value of the function when the price = 200 & discount = 0.25
 
-
-func shop (price: Double, discount:Double) -> Double {
+func valuePrice(discount: Double, price: Double) -> Double {
+var newprice = 0.0
   
-  let priceDiscount =  price - price * discount
-  if price == 0 , discount == 0 {
-   print("the value of the function when the price = \(price) & discount = \(discount)")
-  }
-  return priceDiscount
-  }
-  
-print(shop(price: 100, discount: 0.5))
  
-print(shop(price: 200, discount: 0.25))
+  if price == 100 , discount == 0.5 {
+  newprice = price - (price * discount)
+   
+  }else if price == 200 , discount == 0.25 {
+    newprice = price - (price * discount)
+     
+    
+  }
+return newprice
+
+  
+}
+
+valuePrice( discount: 0.5, price: 100)
 
 //Task 3: Conditional
 
