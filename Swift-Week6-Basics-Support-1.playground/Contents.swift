@@ -19,8 +19,8 @@ func val2 (discount:Double,price:Double)->Double{
   }
   return total
 }
-val2(discount: 0.05, price: 100)
-val2(discount: 0.025, price: 200)
+print(val2(discount: 0.05, price: 100))
+print(val2(discount: 0.025, price: 200))
 // Task 3
 let GPA = 3
 if GPA > 3 {
