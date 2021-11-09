@@ -15,6 +15,7 @@
 - Functions
 
 ## Description 
+
 Task 1: Loops	
 - Create an array with 5 names
 - Print the names in the array using a loop
